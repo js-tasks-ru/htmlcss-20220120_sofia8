@@ -10,7 +10,7 @@
     transition: all 400ms ease-in-out;
 }
 
-button:disabled {
+.button_common:disabled {
     pointer-events: none;
     opacity: 0.5;
     cursor: default;
