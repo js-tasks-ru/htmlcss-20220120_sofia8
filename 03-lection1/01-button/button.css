@@ -1,8 +1,9 @@
-.button_common {
+.button {
     width: 189px;
     height: 48px;
     border-radius: 8px;
     border: none;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-size: 16px;
     line-height: 19px;
@@ -10,15 +11,15 @@
     transition: all 400ms ease-in-out;
 }
 
-.button_common:disabled {
+.button:disabled {
     pointer-events: none;
     opacity: 0.5;
     cursor: default;
 }
 
 .button_primary {
-    background-color: var(--blue);
-    color: white;
+    background-color: var(--primary);
+    color: var(--white);
 }
 
 .button_primary:hover {
@@ -26,8 +27,8 @@
 }
 
 .button_secondary {
-    background-color: var(--purple);
-    color: white;
+    background-color: var(--secondary);
+    color: var(--white);
 }
 
 .button_secondary:hover {
@@ -42,21 +43,4 @@
 
 .button_alternate:hover {
     border: 1px solid var(--black);
-}
-
-.wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    width: 800px;
-    gap: 30px;
-}
-
-.title {
-    width: 100px;
-    text-align: center;
-    letter-spacing: 0.04em;
-    font-size: 12px;
-    line-height: 18px;
-    text-transform: uppercase;
-    color: var(--grey-3);
 }

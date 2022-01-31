@@ -3,20 +3,37 @@
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./button.css">
+        <style type="text/css">
+            .wrapper {
+                display: flex;
+                flex-wrap: wrap;
+                width: 800px;
+                gap: 30px;
+            }
+
+            .title {
+                width: 100px;
+                text-align: center;
+                letter-spacing: 0.04em;
+                font-size: 12px;
+                line-height: 18px;
+                text-transform: uppercase;
+                color: var(--grey-3);
+            }
+        </style>
     </head>
     <body>
         <h1>Buttons</h1>
         <div class="wrapper">
             <h3 class="title">Default</h3>
-            <button class="button_common button_primary">Primary</button>
-            <button class="button_common button_secondary">Secondary</button>
-            <button class="button_common button_alternate">Alternate</button>
+            <button class="button button_primary">Primary</button>
+            <button class="button button_secondary">Secondary</button>
+            <button class="button button_alternate">Alternate</button>
             
             <h3 class="title">Disabled</h3>
-            <button class="button_common button_primary" disabled>Primary</button>
-            <button class="button_common button_secondary" disabled>Secondary</button>
-            <button class="button_common button_alternate" disabled>Alternate</button>
-
+            <button class="button button_primary" disabled>Primary</button>
+            <button class="button button_secondary" disabled>Secondary</button>
+            <button class="button button_alternate" disabled>Alternate</button>
         </div>
     </body>
 </html>
