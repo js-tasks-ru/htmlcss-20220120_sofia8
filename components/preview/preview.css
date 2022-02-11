@@ -5,3 +5,7 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
+.preview__card {
+    max-width: 350px;
+}
