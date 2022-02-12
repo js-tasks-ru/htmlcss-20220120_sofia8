@@ -1,0 +1,6 @@
+.calendar {
+    background: var(--white);
+    border: 1px solid var(--gray-3);
+    box-sizing: border-box;
+    border-radius: 8px;
+}
