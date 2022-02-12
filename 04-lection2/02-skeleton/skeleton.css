@@ -33,7 +33,7 @@
     gap: 8px;
 }
 
-.skeleton__line_width_40, .skeleton__line_width_60, .skeleton__line_width_100{
+.skeleton__line {
     background: var(--grey-2);
     height: 20px;
 }
