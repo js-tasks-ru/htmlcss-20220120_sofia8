@@ -17,17 +17,17 @@
     margin-bottom: 8px;
 }
 
-.histogram__title_color_grey {
+.histogram__title {
     color: var(--black);
     opacity: 0.8;
 }
 
-.histogram__title_color_blue {
+.histogram__link {
     color: #4263EB;
     cursor: pointer;
 }
 
-.histogram__title_color_grey, .histogram__title_color_blue {
+.histogram__title, .histogram__link {
     font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: normal;
