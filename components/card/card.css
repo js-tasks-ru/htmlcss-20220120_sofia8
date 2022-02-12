@@ -9,6 +9,7 @@
 }
 
 .card__top {
+    flex-grow: 1;
     min-height: 224px;
     margin-bottom: 24px;
     display: flex;
