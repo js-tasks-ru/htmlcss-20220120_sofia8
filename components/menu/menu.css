@@ -1,0 +1,36 @@
+.menu {
+    width: 229px;
+}
+
+.menu__list {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin: 0 0 30px;
+    padding: 0;
+}
+
+.menu__link {
+    display: block;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    text-decoration: none;
+    color: var(--black);
+}
+
+.menu__link:hover {
+    color: var(--orange);
+}
+
+.menu__title {
+    margin-bottom: 16px;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--black);
+}
