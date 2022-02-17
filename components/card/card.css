@@ -6,11 +6,12 @@
     border-radius: 12px;
     padding: 32px 25px;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 }
 
 .card__top {
     flex-grow: 1;
-    min-height: 224px;
     margin-bottom: 24px;
     display: flex;
     justify-content: center;
