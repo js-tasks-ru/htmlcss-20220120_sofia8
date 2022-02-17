@@ -3,6 +3,11 @@
     background-color: var(--white);
 }
 
+.header_padding_25 {
+    padding: 25px 0 25px;
+    height: 32px;
+}
+
 .header__title {
     font-family: 'Inter', sans-serif;
     font-style: normal;

@@ -1,7 +1,8 @@
 .footer {
     padding: 71px 0 136px;
-    max-height: 384px;
     background-color: var(--white);
+    max-height: 384px;
+    min-height: 130px;
 }
 
 .footer__title {
