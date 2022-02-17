@@ -4,6 +4,9 @@
 @import "../../components/page/page.css";
 @import "../../components/footer/footer.css";
 @import "../../components/container/container.css";
+@import "../../components/menu/menu.css";
+@import "../../components/component/component.css";
+@import "../../components/component_page/component_page.css";
 
 :root {
     --white: #ffffff;
@@ -19,6 +22,7 @@
     --grey-3: #ACB5BD;
     --grey-4: #495057;
     --grey-5: #90A0B7;
+    --orange: #D84910;
 
     --error: var(--red);
     --success: var(--blue-1);
