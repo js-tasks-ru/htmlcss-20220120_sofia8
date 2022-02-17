@@ -1,5 +1,11 @@
 .modal {
     display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(196, 196, 196, 0.5);
 }
 
 .modal__item {
@@ -11,15 +17,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 40%;
-}
-
-.modal__background {
-    top: 0;
-    left: 0;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(196, 196, 196, 0.5);
 }
 
 .modal__title {
