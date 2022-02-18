@@ -1,0 +1,11 @@
+.preview {
+    display: flex;
+    padding: 67px 0 92px;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.preview__card {
+    max-width: 350px;
+}
