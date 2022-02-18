@@ -4,6 +4,8 @@
 @import "../../components/page/page.css";
 @import "../../components/footer/footer.css";
 @import "../../components/container/container.css";
+@import "../../components/card/card.css";
+@import "../../components/preview/preview.css";
 @import "../../components/menu/menu.css";
 @import "../../components/component/component.css";
 @import "../../components/component_page/component_page.css";
@@ -28,7 +30,7 @@
     --secondary: var(--purple);
 }
 
-* {
+body {
     font-family: 'Roboto', sans-serif;
 }
 
